@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class GFG {
+  public static void main(String[] arg)
+    {
+           int number;
+Scanner sc = new Scanner(System.in);
+ while (true) {
+ 
+            // Display message
+            System.out.println("Enter any valid Integer: ");
+ 
+            // Try block to check if any exception occurs
+            try {
+            number = Integer.parseInt(sc.next());
+            System.out.println("You entered: "
+                                   + number);
+   break;
+            }
+   // Catch block to handle NumberFormatException
+            catch (NumberFormatException e) {
+ // Print the message if exception occured
+                System.out.println(   "NumberFormatException occured");
+            }
+        }
+    }
+}
+ 
