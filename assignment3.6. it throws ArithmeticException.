@@ -1,0 +1,9 @@
+public class HandleArithmeticException {
+public static void main(String[] args) {
+		int firstNum = 25;
+		int secondNum = 20%2; //result is 0
+			int div = firstNum/secondNum;   //line 9
+		System.out.println("Result : "+ div);
+                System.out.println("After division");
+	}
+}
